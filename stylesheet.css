@@ -1,0 +1,22 @@
+body {
+    background-image: url(books.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 960px;
+    
+}
+
+#big_title {
+    text-align: center;
+    font-family: "Old English Text MT";
+    color: #40677F;
+    font-size: 54px;
+    padding-top: 35%
+}
+#index_line {
+    height: 1.5%;
+    color: #113953;
+}
