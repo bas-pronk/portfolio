@@ -17,6 +17,11 @@ body {
     padding-top: 35%
 }
 #index_line {
-    height: 1.5%;
-    color: #113953;
+    height: 1%;
+    background-color: #113953;
+    width: 50%;
+    margin-top: -3%;
+    border: 0px;
+    clear:both;
+    display:block;
 }
