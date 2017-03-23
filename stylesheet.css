@@ -1,3 +1,21 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(PMN_Caecilia_45_Light.ttf);
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+* {
+    box-sizing: border-box;
+}
+h2 {
+    font-family: "Segoe UI";
+    color: #106EAD;
+     
+}
+a {text-decoration: none;}
 body {
     background-image: url(books.png);
     background-size: cover;
@@ -5,16 +23,55 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-    width: 960px;
+    width: 75%;
     
 }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 18px;
+    border: 1px;
+    
+}
+.menu {
+    float: left;
+    color: #81CDFF;
+    margin-left: 12%;
+    font-family: "Segoe UI";
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.menu:hover {
+    color: #40677F;
+}
+
+.main_text {
+    font-family: "Segoe UI";
+    color: #106EAD;
+    
+}
+/*index*/
 
 #big_title {
     text-align: center;
     font-family: "Old English Text MT";
     color: #40677F;
-    font-size: 54px;
-    padding-top: 35%
+    font-size: 350%;
+    margin-top: 310px;
+    margin-bottom: 40px;
+    width: 100%;
 }
 #index_line {
     height: 1%;
@@ -24,5 +81,46 @@ body {
     border: 0px;
     clear:both;
     display:block;
-    margin-left: 25% 
+    margin-left: 25% ;
+    height: 7px
+}
+
+/*page2*/
+
+#big_box {
+    background-color: rgba(255,255,255,0.7);
+    min-height: 500px;
+    height: auto;
+}
+.header{
+    font-family: "Old English Text MT";
+    text-align: left;
+    font-size: 30px;
+    color: #40677F;
+    margin-top: -1px;
+    margin-bottom: -5px
+
+}
+.lign {
+    margin-top: -30px;
+    background-color: #113953;
+    height: 3px;
+    border: 0px;
+    clear: both;
+
+}
+#frontText {
+    margin-top: 4%;
+}
+#uvaplaatje {
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+.heading {
+    margin-bottom: -2%;
+}
+#frontText1 
+{
+    margin-top: 42%
 }
