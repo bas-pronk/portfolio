@@ -45,19 +45,27 @@ body {
     border: 1px;
     
 }
+.opdrachten_box {
+    border: solid 1.5px gray;
+    margin-top: 4%;
+    width: 20%;
+    text-align: center;
+    border-radius: 6%;
+    margin-left: 1%;
+}
+#first_box {
+    margin-left: 0%;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
     }
     #big_box {
-        min-height: 100px;
+        min-height: 200px;
     }
     #index_line {
         width:  300px;
-    }
-    .plaatjesgroep1 {
-        margin-top: -0px;
     }
 }
 .menu {
@@ -106,7 +114,6 @@ body {
 
 #big_box {
     background-color: rgba(255,255,255,0.8);
-    min-height: 550px;
     height: auto;
 
 }
@@ -156,9 +163,7 @@ body {
     margin-left: 15.01%;
 }
 
-.plaatjesgroep1 {
-    margin-top: 8%;
-}
+
 #finalplaatje {
     margin-top: 16%
 }
@@ -182,3 +187,8 @@ body {
     margin-top: 5%;
     margin-left: 4%;
 }
+@media only screen and (orientation: landscape) {
+    .plaatjesgroep1 {margin-top: 8%; }
+    #big_box {min-height: 550px; }
+}
+    
