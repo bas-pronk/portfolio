@@ -45,6 +45,21 @@ body {
     border: 1px;
     
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    #big_box {
+        min-height: 100px;
+    }
+    #index_line {
+        width:  300px;
+    }
+    .plaatjesgroep1 {
+        margin-top: -0px;
+    }
+}
 .menu {
     float: left;
     color: #81CDFF;
@@ -56,6 +71,7 @@ body {
 .menu:hover {
     color: #40677F;
 }
+
 
 .main_text {
     font-family: "Segoe UI";
@@ -90,8 +106,9 @@ body {
 
 #big_box {
     background-color: rgba(255,255,255,0.8);
-    min-height: 520px;
+    min-height: 550px;
     height: auto;
+
 }
 .header{
     font-family: "Old English Text MT";
@@ -159,4 +176,9 @@ body {
 }
 #lightpic {
     width: 50%;
+}
+.opdracht3pic {
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 4%;
 }
