@@ -48,7 +48,6 @@ body {
 .opdrachten_box {
     border: solid 1.5px gray;
     margin-top: 4%;
-    width: 230px;
     text-align: center;
     border-radius: 6%;
     float: left;
@@ -67,7 +66,20 @@ body {
     #index_line {
         width:  300px;
     }
+    
+    .opdrachten_box {
+        width: 170px;
+    }
 }
+@media only screen and (orientation: landscape) {
+    .plaatjesgroep1 {margin-top: 8%; }
+    #big_box {min-height: 550px; }
+    .opdrachten_box {
+        margin-left: 5%;
+        width: 230px;
+    }
+}
+    
 .menu {
     float: left;
     color: #81CDFF;
@@ -190,9 +202,4 @@ body {
     margin-top: 5%;
     margin-left: 4%;
 }
-@media only screen and (orientation: landscape) {
-    .plaatjesgroep1 {margin-top: 8%; }
-    #big_box {min-height: 550px; }
-    .opdrachten_box{margin-left: 5%;}
-}
-    
+
