@@ -201,9 +201,18 @@ body {
 #lightpic {
     width: 50%;
 }
-.opdrachtenpic {
+.opdracht3pic {
     width: 40%;
     margin-top: 5%;
     margin-left: 4%;
 }
 
+.personapic {
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+#npo {
+    width: 30%;
+    margin-left: 40%
+}
