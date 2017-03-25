@@ -52,6 +52,10 @@ body {
     border-radius: 6%;
     float: left;
 }
+.opdrachten_box:hover {
+    background-color: #81CDFF;
+}
+
 #first_box {
     margin-left: 0%;
 }
@@ -197,7 +201,7 @@ body {
 #lightpic {
     width: 50%;
 }
-.opdracht3pic {
+.opdrachtenpic {
     width: 40%;
     margin-top: 5%;
     margin-left: 4%;
