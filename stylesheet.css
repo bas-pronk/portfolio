@@ -64,9 +64,12 @@ body {
     [class*="col-"] {
         width: 100%;
     }
+    .row {
+        margin-bottom: 4%;
+    }
     #big_box {
         min-height: 200px;
-    }
+        }
     #index_line {
         width:  300px;
     }
@@ -74,13 +77,15 @@ body {
     .opdrachten_box {
         width: 170px;
     }
+  
+   
 }
 @media only screen and (orientation: landscape) {
     .plaatjesgroep1 {margin-top: 8%; }
     #big_box {min-height: 550px; }
     .opdrachten_box {
-        margin-left: 5%;
-        width: 230px;
+        margin-left: 4%;
+        width: 20%;
     }
 }
     
