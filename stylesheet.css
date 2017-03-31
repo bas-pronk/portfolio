@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 h2 {
-    font-family: "Segoe UI";
+    font-family: "Calibri";
     color: #106EAD;
      
 }
@@ -93,7 +93,7 @@ body {
     float: left;
     color: #81CDFF;
     margin-left: 12%;
-    font-family: "Segoe UI";
+    font-family: "Calibri";
     margin-top: 2%;
     margin-bottom: 1%;
 }
@@ -103,7 +103,7 @@ body {
 
 
 .main_text {
-    font-family: "Segoe UI";
+    font-family: "Calibri";
     color: #106EAD;
     
     
@@ -171,7 +171,7 @@ body {
 }
 #frontText1 
 {
-    margin-top: 42%;
+    margin-top: 7%;
 }
 .linehead {
     height: 2px;
@@ -213,7 +213,7 @@ body {
 }
 
 .personapic {
-    width: 50%;
+    width: 45%;
     margin-left: 2%;
     margin-top: 3%;
 }
@@ -223,4 +223,21 @@ body {
 }
 #carlcoxpic {
     width: 40%;
+}
+#carlcoxpic1 {
+    margin-left: 20%;
+}
+.bigpic {
+    width: 100%;
+}
+#pdf {
+    float: none;
+    margin-left: 2%;
+    border: solid grey 1px;
+}
+#pdfcontainer {
+    margin-top: 4%;
+}
+#naambas {
+    margin-left: 57%;
 }
